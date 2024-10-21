@@ -1,0 +1,14 @@
+; MOL_GMX.top created by acpype (Rev: 0) on Wed Aug 14 12:56:09 2019
+
+#include "forcefield.itp"
+#include "amber99sb-ildn.ff/tip3p.itp"
+#include "amber99sb-ildn.ff/ions.itp"
+
+[ system ]
+Ion pair in solution in water
+
+[ molecules ]
+; Compound        nmols
+SOL         508
+NA               1
+CL               1

@@ -1,0 +1,132 @@
+
+DRIVER: Found molfile format trajectory xtc with name md_whole.xtc
+PLUMED: PLUMED is starting
+PLUMED: Version: 2.8.3 (git: Unknown) compiled on Sep 30 2024 at 15:49:18
+PLUMED: Please cite these papers when using PLUMED [1][2]
+PLUMED: For further information see the PLUMED web page at http://www.plumed.org
+PLUMED: Root: /project/andrewferguson/armin/grom_new/plumed-2.8.3
+PLUMED: For installed feature, see /project/andrewferguson/armin/grom_new/plumed-2.8.3/src/config/config.txt
+PLUMED: Molecular dynamics engine: driver
+PLUMED: Precision of reals: 8
+PLUMED: Running over 1 node
+PLUMED: Number of threads: 1
+PLUMED: Cache line size: 512
+PLUMED: Number of atoms: 1526
+PLUMED: File suffix: 
+PLUMED: FILE: plumed_calcPIV_newSFP_piv91.dat
+PLUMED: Action PINES
+PLUMED:   with label pines
+PLUMED:   added component to this action:  pines.ELEMENT-0 
+PLUMED:   added component to this action:  pines.ELEMENT-1 
+PLUMED:   added component to this action:  pines.ELEMENT-2 
+PLUMED:   added component to this action:  pines.ELEMENT-3 
+PLUMED:   added component to this action:  pines.ELEMENT-4 
+PLUMED:   added component to this action:  pines.ELEMENT-5 
+PLUMED:   added component to this action:  pines.ELEMENT-6 
+PLUMED:   added component to this action:  pines.ELEMENT-7 
+PLUMED:   added component to this action:  pines.ELEMENT-8 
+PLUMED:   added component to this action:  pines.ELEMENT-9 
+PLUMED:   added component to this action:  pines.ELEMENT-10 
+PLUMED:   added component to this action:  pines.ELEMENT-11 
+PLUMED:   added component to this action:  pines.ELEMENT-12 
+PLUMED:   added component to this action:  pines.ELEMENT-13 
+PLUMED:   added component to this action:  pines.ELEMENT-14 
+PLUMED:   added component to this action:  pines.ELEMENT-15 
+PLUMED:   added component to this action:  pines.ELEMENT-16 
+PLUMED:   added component to this action:  pines.ELEMENT-17 
+PLUMED:   added component to this action:  pines.ELEMENT-18 
+PLUMED:   added component to this action:  pines.ELEMENT-19 
+PLUMED:   added component to this action:  pines.ELEMENT-20 
+PLUMED:   added component to this action:  pines.ELEMENT-21 
+PLUMED:   added component to this action:  pines.ELEMENT-22 
+PLUMED:   added component to this action:  pines.ELEMENT-23 
+PLUMED:   added component to this action:  pines.ELEMENT-24 
+PLUMED:   added component to this action:  pines.ELEMENT-25 
+PLUMED:   added component to this action:  pines.ELEMENT-26 
+PLUMED:   added component to this action:  pines.ELEMENT-27 
+PLUMED:   added component to this action:  pines.ELEMENT-28 
+PLUMED:   added component to this action:  pines.ELEMENT-29 
+PLUMED:   added component to this action:  pines.ELEMENT-30 
+PLUMED:   added component to this action:  pines.ELEMENT-31 
+PLUMED:   added component to this action:  pines.ELEMENT-32 
+PLUMED:   added component to this action:  pines.ELEMENT-33 
+PLUMED:   added component to this action:  pines.ELEMENT-34 
+PLUMED:   added component to this action:  pines.ELEMENT-35 
+PLUMED:   added component to this action:  pines.ELEMENT-36 
+PLUMED:   added component to this action:  pines.ELEMENT-37 
+PLUMED:   added component to this action:  pines.ELEMENT-38 
+PLUMED:   added component to this action:  pines.ELEMENT-39 
+PLUMED:   added component to this action:  pines.ELEMENT-40 
+PLUMED:   added component to this action:  pines.ELEMENT-41 
+PLUMED:   added component to this action:  pines.ELEMENT-42 
+PLUMED:   added component to this action:  pines.ELEMENT-43 
+PLUMED:   added component to this action:  pines.ELEMENT-44 
+PLUMED:   added component to this action:  pines.ELEMENT-45 
+PLUMED:   added component to this action:  pines.ELEMENT-46 
+PLUMED:   added component to this action:  pines.ELEMENT-47 
+PLUMED:   added component to this action:  pines.ELEMENT-48 
+PLUMED:   added component to this action:  pines.ELEMENT-49 
+PLUMED:   added component to this action:  pines.ELEMENT-50 
+PLUMED:   added component to this action:  pines.ELEMENT-51 
+PLUMED:   added component to this action:  pines.ELEMENT-52 
+PLUMED:   added component to this action:  pines.ELEMENT-53 
+PLUMED:   added component to this action:  pines.ELEMENT-54 
+PLUMED:   added component to this action:  pines.ELEMENT-55 
+PLUMED:   added component to this action:  pines.ELEMENT-56 
+PLUMED:   added component to this action:  pines.ELEMENT-57 
+PLUMED:   added component to this action:  pines.ELEMENT-58 
+PLUMED:   added component to this action:  pines.ELEMENT-59 
+PLUMED:   added component to this action:  pines.ELEMENT-60 
+PLUMED:   added component to this action:  pines.ELEMENT-61 
+PLUMED:   added component to this action:  pines.ELEMENT-62 
+PLUMED:   added component to this action:  pines.ELEMENT-63 
+PLUMED:   added component to this action:  pines.ELEMENT-64 
+PLUMED:   added component to this action:  pines.ELEMENT-65 
+PLUMED:   added component to this action:  pines.ELEMENT-66 
+PLUMED:   added component to this action:  pines.ELEMENT-67 
+PLUMED:   added component to this action:  pines.ELEMENT-68 
+PLUMED:   added component to this action:  pines.ELEMENT-69 
+PLUMED:   added component to this action:  pines.ELEMENT-70 
+PLUMED:   added component to this action:  pines.ELEMENT-71 
+PLUMED:   added component to this action:  pines.ELEMENT-72 
+PLUMED:   added component to this action:  pines.ELEMENT-73 
+PLUMED:   added component to this action:  pines.ELEMENT-74 
+PLUMED:   added component to this action:  pines.ELEMENT-75 
+PLUMED:   added component to this action:  pines.ELEMENT-76 
+PLUMED:   added component to this action:  pines.ELEMENT-77 
+PLUMED:   added component to this action:  pines.ELEMENT-78 
+PLUMED:   added component to this action:  pines.ELEMENT-79 
+PLUMED:   added component to this action:  pines.ELEMENT-80 
+PLUMED:   added component to this action:  pines.ELEMENT-81 
+PLUMED:   added component to this action:  pines.ELEMENT-82 
+PLUMED:   added component to this action:  pines.ELEMENT-83 
+PLUMED:   added component to this action:  pines.ELEMENT-84 
+PLUMED:   added component to this action:  pines.ELEMENT-85 
+PLUMED:   added component to this action:  pines.ELEMENT-86 
+PLUMED:   added component to this action:  pines.ELEMENT-87 
+PLUMED:   added component to this action:  pines.ELEMENT-88 
+PLUMED:   added component to this action:  pines.ELEMENT-89 
+PLUMED:   added component to this action:  pines.ELEMENT-90 
+PLUMED: Action PRINT
+PLUMED:   with label @1
+PLUMED:   with stride 1
+PLUMED:   with arguments pines.ELEMENT-0 pines.ELEMENT-1 pines.ELEMENT-2 pines.ELEMENT-3 pines.ELEMENT-4 pines.ELEMENT-5 pines.ELEMENT-6 pines.ELEMENT-7 pines.ELEMENT-8 pines.ELEMENT-9 pines.ELEMENT-10 pines.ELEMENT-11 pines.ELEMENT-12 pines.ELEMENT-13 pines.ELEMENT-14 pines.ELEMENT-15 pines.ELEMENT-16 pines.ELEMENT-17 pines.ELEMENT-18 pines.ELEMENT-19 pines.ELEMENT-20 pines.ELEMENT-21 pines.ELEMENT-22 pines.ELEMENT-23 pines.ELEMENT-24 pines.ELEMENT-25 pines.ELEMENT-26 pines.ELEMENT-27 pines.ELEMENT-28 pines.ELEMENT-29 pines.ELEMENT-30 pines.ELEMENT-31 pines.ELEMENT-32 pines.ELEMENT-33 pines.ELEMENT-34 pines.ELEMENT-35 pines.ELEMENT-36 pines.ELEMENT-37 pines.ELEMENT-38 pines.ELEMENT-39 pines.ELEMENT-40 pines.ELEMENT-41 pines.ELEMENT-42 pines.ELEMENT-43 pines.ELEMENT-44 pines.ELEMENT-45 pines.ELEMENT-46 pines.ELEMENT-47 pines.ELEMENT-48 pines.ELEMENT-49 pines.ELEMENT-50 pines.ELEMENT-51 pines.ELEMENT-52 pines.ELEMENT-53 pines.ELEMENT-54 pines.ELEMENT-55 pines.ELEMENT-56 pines.ELEMENT-57 pines.ELEMENT-58 pines.ELEMENT-59 pines.ELEMENT-60 pines.ELEMENT-61 pines.ELEMENT-62 pines.ELEMENT-63 pines.ELEMENT-64 pines.ELEMENT-65 pines.ELEMENT-66 pines.ELEMENT-67 pines.ELEMENT-68 pines.ELEMENT-69 pines.ELEMENT-70 pines.ELEMENT-71 pines.ELEMENT-72 pines.ELEMENT-73 pines.ELEMENT-74 pines.ELEMENT-75 pines.ELEMENT-76 pines.ELEMENT-77 pines.ELEMENT-78 pines.ELEMENT-79 pines.ELEMENT-80 pines.ELEMENT-81 pines.ELEMENT-82 pines.ELEMENT-83 pines.ELEMENT-84 pines.ELEMENT-85 pines.ELEMENT-86 pines.ELEMENT-87 pines.ELEMENT-88 pines.ELEMENT-89 pines.ELEMENT-90
+PLUMED:   on file colvar
+PLUMED:   with format  %f
+PLUMED: END FILE: plumed_calcPIV_newSFP_piv91.dat
+PLUMED: Timestep: 1.000000
+PLUMED: KbT has not been set by the MD engine
+PLUMED: It should be set by hand where needed
+PLUMED: Relevant bibliography:
+PLUMED:   [1] The PLUMED consortium, Nat. Methods 16, 670 (2019)
+PLUMED:   [2] Tribello, Bonomi, Branduardi, Camilloni, and Bussi, Comput. Phys. Commun. 185, 604 (2014)
+PLUMED: Please read and cite where appropriate!
+PLUMED: Finished setup
+PLUMED:                                               Cycles        Total      Average      Minimum      Maximum
+PLUMED:                                                    1   267.522593   267.522593   267.522593   267.522593
+PLUMED: 1 Prepare dependencies                         12501     4.003622     0.000320     0.000260     0.005914
+PLUMED: 2 Sharing data                                 12501     0.104252     0.000008     0.000007     0.000263
+PLUMED: 3 Waiting for data                             12501     0.010565     0.000001     0.000000     0.000008
+PLUMED: 4 Calculating (forward loop)                   12501   261.827141     0.020944     0.020283     0.064703
+PLUMED: 5 Applying (backward loop)                     12501     0.376139     0.000030     0.000019     0.000145
+PLUMED: 6 Update                                       12501     1.030277     0.000082     0.000067     0.004974

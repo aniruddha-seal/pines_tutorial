@@ -1,0 +1,15 @@
+# Distance between Na and Cl atoms
+dist: DISTANCE ATOMS=1525,1526
+
+# Solvation of Na atom
+COORDINATION ...
+  LABEL=coord
+  GROUPA=1525
+  GROUPB=1-1524:3
+  SWITCH={RATIONAL R_0=0.315 D_MAX=0.5 NN=12 MM=24}
+  NLIST
+  NL_CUTOFF=0.55
+  NL_STRIDE=10
+... COORDINATION
+
+PRINT ARG=dist,coord FILE=colvar.data STRIDE=250
