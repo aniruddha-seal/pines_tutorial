@@ -4,7 +4,7 @@
 - [x] Add NAVIGATION.md
 - [x] Add EMBED.yml
 - [ ] Update INSTRUCTIONS.md
-- [ ] Add GROMACS and Plumed versions
+- [x] Add GROMACS and Plumed versions: GROMACS-2021.6-plumed-2.8.3
 - [ ] Add simulation data
 - [ ] Add environment.yml file
 - [ ] Add Jupyter Notebook (solution)
