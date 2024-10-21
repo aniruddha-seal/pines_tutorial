@@ -6,6 +6,6 @@
 - [ ] Update INSTRUCTIONS.md
 - [x] Add GROMACS and Plumed versions: GROMACS-2021.6-plumed-2.8.3
 - [ ] Add simulation data
-- [ ] Add environment.yml file
+- [x] Add environment.yml file
 - [ ] Add Jupyter Notebook (solution)
 - [ ] Add clean Jupyter Notebook (exercise)
