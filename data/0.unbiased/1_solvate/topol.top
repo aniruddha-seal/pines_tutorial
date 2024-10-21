@@ -1,0 +1,11 @@
+; topol.top for pair of ions in water
+
+#include "forcefield.itp"
+#include "amber99sb-ildn.ff/tip3p.itp"
+#include "amber99sb-ildn.ff/ions.itp"
+
+[ system ]
+Ion pair in solution in water
+
+[ molecules ]
+; Compound        nmols
