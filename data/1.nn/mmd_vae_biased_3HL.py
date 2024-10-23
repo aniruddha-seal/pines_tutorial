@@ -9,13 +9,6 @@ from pytorch_lightning.core import LightningModule
 
 from argparse import ArgumentParser
 
-# Notes to myself on variables that I'm using in this code
-# feature_dim = input data dimensions
-# latent_dim = latent dimension
-# learning_rate = network learning rate
-# batch_size = 
-# 
-
 
 class MESA_VAE(LightningModule):
     """
@@ -177,7 +170,6 @@ class MESA_VAE(LightningModule):
         true_samples = true_samples.to(device=torch.device("cuda:0"))
 
         recon_loss = F.mse_loss(x_pred, x.float())
-        #recon_loss = self.weighted_mse_loss(x_pred, x.float())
 
         mmd_loss = self.compute_mmd(true_samples, z)
 
@@ -207,7 +199,6 @@ class MESA_VAE(LightningModule):
         true_samples = true_samples.to(device=torch.device("cuda:0"))
 
         recon_loss = F.mse_loss(x_pred, x.float())
-        #recon_loss = self.weighted_mse_loss(x_pred, x.float())
 
         mmd_loss = self.compute_mmd(true_samples, z)
 
@@ -250,8 +241,7 @@ class MESA_VAE(LightningModule):
             self.parameters(),
             lr=self.hparams.learning_rate,
         )
-        # scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=10)
-        return [optimizer]  # , [scheduler]
+        return [optimizer]
 
     def on_epoch_end(self):
         if self.current_epoch % self.hparams.save_samples_every_n_epochs == 0:
@@ -266,7 +256,7 @@ class MESA_VAE(LightningModule):
         if (self.current_epoch + 1) % 1 == 0:
             print(f"Mapping latent space...")
             with torch.no_grad():
-                path =''  #'/project/andrewferguson/Nick/NaCl_PINES_pipeline/1.NN/formatted_nSFP_NaClpiv91.npy' #unbiased_training_dataset_piv91.npy
+                path = self.hparams.data_dir
                 full_dataset = torch.from_numpy(np.load(path, allow_pickle=True))
                 full_dataset = full_dataset.to(device=torch.device("cuda:0"))
                 z_full, x_pred_full = self.forward(full_dataset.float())
@@ -284,7 +274,7 @@ class MESA_VAE(LightningModule):
             train_percent = self.hparams.train_percent
 
         print("Loading all data...")
-        path =''   #'/project/andrewferguson/Nick/NaCl_PINES_pipeline/1.NN/formatted_nSFP_NaClpiv91.npy' #unbiased_training_dataset_piv91.npy
+        path = self.hparams.data_dir
         full_dataset = torch.from_numpy(np.load(path, allow_pickle=True))
 
         train_size = int(train_percent * len(full_dataset))
@@ -324,8 +314,8 @@ class MESA_VAE(LightningModule):
 
         parser = ArgumentParser(parents=[parent_parser])
 
-        # param overwrites
-        # parser.set_defaults(gradient_clip_val=5.0)
+        # training data
+        parser.add_argument("--data_dir", default=None, type=str)
 
         # network params
         parser.add_argument("--learning_rate", default=1e-4, type=float)
