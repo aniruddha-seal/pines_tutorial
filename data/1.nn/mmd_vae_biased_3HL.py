@@ -248,7 +248,7 @@ class MESA_VAE(LightningModule):
             print(f"Saving samples for epoch #{self.current_epoch}...")
             with torch.no_grad():
                 dataiter = iter(self.val_dataloader())
-                data = dataiter.next()
+                data = next(dataiter)
                 batch = self.transfer_batch_to_device(data, self.device, dataiter)
 
                 x = batch
