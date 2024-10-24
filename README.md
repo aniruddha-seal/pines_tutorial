@@ -7,4 +7,4 @@
 - [x] Add GROMACS and Plumed versions: GROMACS-2021.6-plumed-2.8.3
 - [x] Add simulation data
 - [x] Add environment.yml file
-- [ ] Add Jupyter Notebook
+- [x] Add Jupyter Notebook
