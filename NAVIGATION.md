@@ -3,7 +3,8 @@ method for studying free energy landscapes of both single and multi-molecular sy
 PINES discovers collective variables (CVs) that are translationally, rotationally, and
 permutationally invariant in an iterative manner by taking permutationally invariant
 vectors (PIV) as input and passing them through a regularized autoencoder to discover
-high-variance CVs. In this advanced PLUMED tutorial, we first provide an overview of
+high-variance CVs  using the Molecular Enhanced Sampling with Autoencoders (MESA) technique.
+In this advanced PLUMED tutorial, we first provide an overview of
 the PINES method and demonstrate its application to study ion dissociation in water.
 
 
