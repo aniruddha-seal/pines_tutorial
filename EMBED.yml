@@ -5,3 +5,7 @@ ref1:
 ref2:
   location: https://doi.org/10.1002/jcc.25520
   type: external
+
+ref3:
+  location: 21/004
+  type: internal
