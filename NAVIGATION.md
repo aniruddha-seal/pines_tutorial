@@ -14,7 +14,7 @@ using regularized autoencoders, whitening the latent space using principal compo
 analysis, and generating PLUMED files for biasing using parallel bias metadynamics. All
 the input files required to run the tutorial will also be provided with the tutorial.
 
-The primary learning objectives from this tutorial are PIV molecular representations,
+The primary learning objectives from this tutorial are permutationally invariant molecular representations,
 high-variance CVs, autoencoders, and enhanced sampling methods at a high level
 along with a practical understanding of PINES to molecular systems in PLUMED. We
 assume the user is familiar with CV biasing enhanced sampling methods and usage of
