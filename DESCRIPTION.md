@@ -43,7 +43,7 @@ The tutorial was tested using:
 ## Steps in the Tutorial
 
 1. **Step 1: Featurization**  
-   Represent the molecular system using PIV to obtain a permutationally invariant representation.
+   Represent the molecular simulation trajectory using a permutationally invariant representation.
    
 2. **Step 2: CV Discovery with Autoencoders**  
    Train autoencoders to identify high-variance CVs from the molecular dynamics data.
